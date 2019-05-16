@@ -1,0 +1,12 @@
+[package]
+name = "rustling-core"
+version = "0.9.0"
+authors = ["hdlj <hubert.delajonquiere@snips.net>", "Mathieu Poumeyrol <kali@zoy.org>"]
+
+[dependencies]
+regex = "0.2"
+smallvec = "0.6"
+failure = "0.1.1"
+string-interner = "0.3"
+serde = "1.0"
+serde_derive = "1.0"

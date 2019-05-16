@@ -1,0 +1,15 @@
+[package]
+name = "rustling"
+version = "0.9.0"
+authors = ["hdlj <hubert.delajonquiere@snips.net>", "Mathieu Poumeyrol <kali@zoy.org>"]
+
+[workspace]
+members = ["core", "ml"]
+
+[dependencies]
+rustling-core = { path="core"}
+rustling-ml = { path="ml"}
+failure = "0.1.1"
+fnv = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
